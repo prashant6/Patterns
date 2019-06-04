@@ -20,10 +20,16 @@ int factorial(int val)
 int main()
 {
 	int ch;
+	char n = 'y';
+	do{
+		cout<<"\nType a no. to find the factorial of : ";
+		cin>>ch;
+		cout<<"\nFactorial is : "<<factorial(ch)<<endl;
+		cout<<"\nType 'n' to stop : ";
+		cout<<"\nWant to perform more ? ";
+		cin>>n;
 
-	cout<<"\nType a no. to find the factorial of : ";
-	cin>>ch;
-	cout<<"\nFactorial is : "<<factorial(ch);
+	}while(n !='n');
 
 	return 0;
 }
