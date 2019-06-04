@@ -20,7 +20,7 @@ int factorial(int val)
 int main()
 {
 	int ch;
-	char n = 'y';
+	char n;
 	do{
 		cout<<"\nType a no. to find the factorial of : ";
 		cin>>ch;
